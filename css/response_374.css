@@ -1,0 +1,265 @@
+@media (max-width: 374px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .about-logo__desc
+    {
+        font-size: 2.4vw;
+        line-height: normal;
+
+        margin-top: 4px;
+    }
+
+    /*---------------
+       Ничего лишнего
+    ---------------*/
+    .section-about__link
+    {
+        margin-left: -10px;
+
+        transform: translateX(-50%);
+        text-align: center;
+    }
+
+    /*---------------
+        Последняя секция
+    ---------------*/
+    .last-section__imgMob
+    {
+        margin-left: -228px;
+    }
+
+
+    /*---------------
+       Товары
+    ---------------*/
+    .product-landing__name br
+    {
+        display: inline;
+    }
+
+    /*---------------
+       Cостав
+    ---------------*/
+    .composition__images
+    {
+        max-width: 245px;
+        height: 282px;
+        margin-top: -27px;
+        padding-right: 20px;
+    }
+
+    .composition__img2
+    {
+        top: 50px;
+        left: 22px;
+
+        width: 50px;
+    }
+
+    .composition__img3
+    {
+        top: 0;
+        right: 117px;
+
+        width: 15px;
+    }
+
+    .composition__img4
+    {
+        top: 0;
+        right: 68px;
+
+        width: 38px;
+    }
+
+    .composition__img5
+    {
+        top: 5px;
+
+        width: 82px;
+    }
+
+    .composition__img6
+    {
+        top: 72px;
+        right: 43px;
+
+        width: 18px;
+    }
+
+    .composition__img7
+    {
+        right: 40px;
+        bottom: 130px;
+
+        width: 17px;
+    }
+
+    .composition__img8
+    {
+        right: 38px;
+        bottom: 84px;
+
+        width: 46px;
+    }
+
+    .composition__img9
+    {
+        right: 78px;
+        bottom: 40px;
+
+        width: 20px;
+    }
+
+    .composition__img10
+    {
+        bottom: 0;
+        left: 85px;
+
+        width: 59px;
+    }
+
+    .composition__img11
+    {
+        bottom: 61px;
+        left: 102px;
+
+        width: 18px;
+    }
+
+    .composition__img1
+    {
+        top: 45px;
+        right: 33px;
+
+        width: 148px;
+    }
+
+    .composition__img12
+    {
+        bottom: 40px;
+        left: 75px;
+
+        width: 16px;
+    }
+
+    .composition__img13
+    {
+        right: 0;
+        bottom: 40px;
+
+        width: 130px;
+    }
+
+    @keyframes shift1
+    {
+        0%
+        {
+            transform: translate(0, 0);
+        }
+        16.66%
+        {
+            transform: translate(-5px, 0);
+        }
+        50%
+        {
+            transform: translate(0, -5px);
+        }
+        83.34%
+        {
+            transform: translate(5px, 0);
+        }
+        100%
+        {
+            transform: translate(0, 0);
+        }
+    }
+
+
+    @keyframes shift2
+    {
+        0%
+        {
+            transform: translate(0, 0);
+        }
+        16.66%
+        {
+            transform: translate(5px, 0);
+        }
+        50%
+        {
+            transform: translate(0, 5px);
+        }
+        83.34%
+        {
+            transform: translate(-5px, 0);
+        }
+        100%
+        {
+            transform: translate(0, 0);
+        }
+    }
+
+    @keyframes shift3
+    {
+        0%
+        {
+            transform: translate(0, 0);
+        }
+        16.66%
+        {
+            transform: translate(0, 5px);
+        }
+        50%
+        {
+            transform: translate(-5px, 0);
+        }
+        83.34%
+        {
+            transform: translate(5px, 0);
+        }
+        100%
+        {
+            transform: translate(0, 0);
+        }
+    }
+
+    @keyframes shift4
+    {
+        0%
+        {
+            transform: translate(0, 0);
+        }
+        16.66%
+        {
+            transform: translate(0, -5px);
+        }
+        50%
+        {
+            transform: translate(5px, 0);
+        }
+        83.34%
+        {
+            transform: translate(-5px, 0);
+        }
+        100%
+        {
+            transform: translate(0, 0);
+        }
+    }
+
+
+    .composition__info
+    {
+        margin-top: 30px;
+    }
+}

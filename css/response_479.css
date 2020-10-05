@@ -1,0 +1,253 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    /*---------------
+       Ничего лишнего
+    ---------------*/
+    .section-about__img:before
+    {
+        bottom: -30%;
+
+        height: 100%;
+    }
+
+    .section-about__nothing img
+    {
+        max-width: 57%;
+    }
+
+    .about-logo
+    {
+        width: 160px;
+        padding: 16px;
+    }
+
+    .about-logo:before,
+    .about-logo:after
+    {
+        width: 16px;
+        height: 16px;
+    }
+
+    .about-logo__desc
+    {
+        font-size: 10px;
+        line-height: normal;
+
+        margin-top: 8px;
+    }
+
+
+    /*---------------
+       Блок информации
+    ---------------*/
+    .section-info__blockR
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+    .section-info__info
+    {
+        width: 100%;
+        margin-top: 30px;
+        padding: 0 20px;
+
+        order: 2;
+    }
+
+    .section-info__box
+    {
+        max-width: none;
+        padding: 0;
+
+        text-align: center;
+    }
+
+
+    /*---------------
+       Для кого
+    ---------------*/
+    .who-suits__logoAbs
+    {
+        right: 16%;
+
+        width: 84%;
+    }
+
+    .who-suits__logo img
+    {
+        max-width: 43%;
+    }
+
+    .who-suits__desc
+    {
+        font-size: 12px;
+
+        max-width: 230px;
+    }
+
+    .who-suits__dots1
+    {
+        left: -90px;
+    }
+
+    .who-suits__dots2
+    {
+        margin-bottom: -30px;
+    }
+
+    .section-info__title
+    {
+        font-size: 20px;
+
+        text-align: left;
+    }
+
+    .section-info__list
+    {
+        text-align: left;
+    }
+
+
+    /*---------------
+       Товары
+    ---------------*/
+    .product-landing__name .mob
+    {
+        display: inline;
+    }
+
+
+    /*---------------
+        Последняя секция
+    ---------------*/
+    .last-section
+    {
+        padding-top: 0;
+    }
+
+    .last-section_bg
+    {
+        padding: 39px 0 277px;
+
+        background: linear-gradient(161.5deg, #c2bde3 24.95%, #8a83af 76.77%);
+    }
+
+    .last-section_bg > .flex
+    {
+        padding-right: 0;
+    }
+
+    .last-section__boxImg
+    {
+        display: none;
+    }
+
+    .last-section__block
+    {
+        width: 232px;
+        margin: 0 auto;
+    }
+
+    .last-logo__desc
+    {
+        font-size: 18px;
+    }
+
+    .last-section__link
+    {
+        margin-top: 26px;
+        padding: 0 22px;
+    }
+
+    .last-section__imgMob
+    {
+        display: block;
+    }
+
+
+    /*---------------
+       Товары
+    ---------------*/
+    .product-landing__info
+    {
+        align-items: flex-start;
+        align-content: flex-start;
+    }
+
+    .product-landing__name
+    {
+        width: calc(100% - 120px);
+        margin-bottom: 0;
+
+        order: 2;
+    }
+
+    .product-landing__name br
+    {
+        display: inline;
+    }
+
+    #product-landing5 .product-landing__name br
+    {
+        display: inline;
+    }
+
+    .product-landing__icon
+    {
+        width: 100px;
+
+        justify-content: center;
+    }
+
+    .product-landing__icon img
+    {
+        max-height: 85px;
+    }
+
+    .product-landing__list
+    {
+        width: 100%;
+        margin-top: 10px;
+
+        order: 3;
+    }
+
+
+    /*---------------
+       Видео
+    ---------------*/
+    .video-section__play span
+    {
+        width: 30px;
+        height: 30px;
+        margin: -15px 0 0 -15px;
+
+        background-size: 35% auto;
+    }
+
+
+    /*---------------
+       Cостав
+    ---------------*/
+    .composition__blockL
+    {
+        padding-right: 0;
+    }
+
+    .composition__images
+    {
+        margin: 0 auto;
+        margin-right: 0;
+    }
+}

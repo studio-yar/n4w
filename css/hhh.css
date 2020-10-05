@@ -1,0 +1,580 @@
+/*---------------
+  Главный экран сайта
+---------------*/
+.hhh-first-section
+{
+    overflow: hidden;
+
+    width: 100%;
+
+    background-color: white;
+}
+
+#hhh-circles_canvas
+{
+    display: block;
+}
+
+/* BLOCKS */
+
+.hhh-first-logo
+{
+    position: absolute;
+
+    display: flex;
+
+    background-color: white;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.hhh-first-logo__mobile
+{
+    position: relative;
+    z-index: 1;
+
+    display: none;
+
+    width: 80%;
+    height: 80%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.hhh-first-logo__mobile img
+{
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+}
+
+.hhh-first-logo::after
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+    transition-delay: 1.8s;
+    transition-duration: 1s;
+    transform: scaleX(4);
+
+    background-color: white;
+}
+
+.hhh-first-logo_ready::after
+{
+    transform: scaleX(1);
+}
+
+.hhh-first-logo__string
+{
+    color: #2b2827;
+    font-size: calc(9vw + 4vh);
+    font-weight: bold;
+
+    z-index: 1;
+
+    display: grid;
+
+    transform: translateX(.4ch);
+
+    grid-auto-flow: column;
+    grid-gap: 2vw;
+    perspective: 1000px;
+}
+
+.hhh-first-logo__underline
+{
+    font-size: calc(1vw + .7vh);
+    font-weight: 400;
+
+    position: absolute;
+    z-index: 1;
+    bottom: calc(.5vw + .5vh);
+
+    transition-property: opacity;
+    transform: translateX(.4ch);
+    letter-spacing: .1vw;
+
+    opacity: 0;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__underline
+{
+    transition-delay: 2.3s;
+    transition-duration: 2s;
+
+    opacity: 1;
+}
+
+.hhh-first-logo__translate
+{
+    font-size: calc(4px + .5vw + .5vh);
+
+    position: absolute;
+    z-index: 1;
+    right: 1vw;
+    bottom: 1vh;
+
+    transform: translateX(20vw);
+}
+
+.hhh-first-logo_ready .hhh-first-logo__translate
+{
+    transition-delay: 1s;
+    transition-duration: 1s;
+
+    opacity: 0;
+}
+
+/* WORDS */
+
+.hhh-first-logo__word
+{
+    position: relative;
+
+    display: flex;
+}
+
+.hhh-first-logo__word_need
+{
+    z-index: 1;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_need
+{
+    animation: word_need .5s 1.4s cubic-bezier(1, -.5, .17, 1.15) forwards;
+}
+
+.hhh-first-logo__word_for
+{
+    position: relative;
+
+    display: flex;
+
+    transform-style: preserve-3d;
+    align-items: center;
+    justify-content: center;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_for
+{
+    animation: word_for 1s 1.1s forwards;
+}
+
+.hhh-first-logo__word_what
+{
+    z-index: 1;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_what
+{
+    animation: word_what 2s cubic-bezier(1, -.41, .17, 1.15) forwards;
+}
+
+/* 2 SIDE FOR  */
+
+
+
+.hhh-first-logo__word_for__face
+{
+    display: flex;
+
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_for__face
+{
+    animation: word_for__face .5s 1.2s forwards;
+}
+
+.hhh-first-logo__word_for__back
+{
+    position: absolute;
+    top: 0;
+
+    width: 100%;
+    height: 100%;
+
+    transform: rotateX(180deg);
+
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+
+/* LETTERS */
+
+
+
+/* word 'need' letters */
+
+.hhh-first-logo_ready .hhh-first-logo__word_need__letter_n
+{
+    animation: word_need__letter_n 1s cubic-bezier(1, -.41, .07, 1.33) forwards;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_need__letter_e1
+{
+    animation: word_need__letter_e1 .2s .42s forwards;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_need__letter_e2
+{
+    animation: word_need__letter_e2 .2s .47s forwards;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_need__letter_d
+{
+    animation: word_need__letter_d .2s .5s forwards;
+}
+
+/* word 'for' letters */
+
+
+
+
+
+
+
+.hhh-first-logo__word_for__letter_4
+{
+    display: flex;
+
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.hhh-first-logo__word_for__letter_4 span
+{
+    font-size: calc(4vw + 1.5vh);
+
+    opacity: 0;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_for__letter_4 span
+{
+    transition-delay: 1.4s;
+    transition-duration: .5s;
+
+    opacity: 1;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_for__letter_4
+{
+    animation: word_for__letter_4 .5s 1.9s forwards;
+}
+
+
+/* word 'what' letters */
+
+.hhh-first-logo__word_what__letter_ast
+{
+    font-size: calc(2vw + 2vh);
+
+    position: relative;
+    top: calc(-1vw + -1vh);
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_what__letter_w
+{
+    animation: word_what__letter_w 1s .5s cubic-bezier(1, -.49, .25, 1.01) forwards;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_what__letter_h
+{
+    animation: word_what__letter_h .2s 1s forwards;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_what__letter_a
+{
+    animation: word_what__letter_a .2s 1.05s forwards;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_what__letter_t
+{
+    animation: word_what__letter_t .2s 1.1s forwards;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_what__letter_ast
+{
+    animation: word_what__letter_ast .2s 1.1s forwards;
+}
+
+.hhh-first-logo_ready .hhh-first-logo__word_what__letter_qes
+{
+    animation: word_what__letter_qes .2s 1.1s forwards;
+}
+
+/* word 'need' letters */
+
+@keyframes word_need__letter_n
+{
+    to
+    {
+        transform: translateX(2.5ch) rotate(1turn);
+    }
+}
+
+@keyframes word_need__letter_e1
+{
+    to
+    {
+        transform: scale(0);
+
+        opacity: 0;
+    }
+}
+
+@keyframes word_need__letter_e2
+{
+    to
+    {
+        transform: scale(0);
+
+        opacity: 0;
+    }
+}
+
+@keyframes word_need__letter_d
+{
+    to
+    {
+        transform: scale(0);
+
+        opacity: 0;
+    }
+}
+
+/* word 'what' letters */
+
+@keyframes word_what__letter_w
+{
+    to
+    {
+        transform: translate(3.3ch) rotate(1turn);
+    }
+}
+
+@keyframes word_what__letter_h
+{
+    to
+    {
+        transform: scale(0);
+
+        opacity: 0;
+    }
+}
+
+@keyframes word_what__letter_a
+{
+    to
+    {
+        transform: scale(0);
+
+        opacity: 0;
+    }
+}
+
+@keyframes word_what__letter_t
+{
+    to
+    {
+        transform: scale(0);
+
+        opacity: 0;
+    }
+}
+
+@keyframes word_what__letter_ast
+{
+    to
+    {
+        transform: scale(0);
+
+        opacity: 0;
+    }
+}
+
+@keyframes word_what__letter_qes
+{
+    to
+    {
+        transform: scale(0);
+
+        opacity: 0;
+    }
+}
+
+
+/* word for letters */
+
+@keyframes word_for__letter_4
+{
+    to
+    {
+        transform: translateY(.5ch);
+    }
+}
+
+/* words */
+
+@keyframes word_need
+{
+    to
+    {
+        transform: translateX(1.3ch);
+    }
+}
+
+
+@keyframes word_what
+{
+    50%
+    {
+        transform: translateX(0) rotateY(180deg);
+    }
+
+    80%
+    {
+        transform: translateX(0) rotateY(180deg);
+    }
+
+    to
+    {
+        transform: translateX(-1.15ch) rotateY(180deg);
+    }
+}
+
+@keyframes word_for
+{
+    to
+    {
+        transform: rotateX(180deg);
+    }
+}
+
+/* others */
+
+
+@keyframes word_for__face
+{
+    to
+    {
+        transform: scale(0);
+    }
+}
+
+
+@media (max-width: 1024px)
+{
+    .hhh-first-section
+    {
+    }
+
+    .hhh-first-logo__string
+    {
+        font-size: calc(7.5vw + 5vh);
+
+        transform: translateX(.4ch) scale(.7);
+    }
+
+    .hhh-first-logo_ready .hhh-first-logo__string
+    {
+        transition-delay: 2.2s;
+        transition-duration: .5s;
+        transform: translateX(.4ch) scale(1);
+    }
+
+    .hhh-first-logo__word_what__letter_ast
+    {
+        font-size: calc(1.5vw + 1.5vh);
+    }
+
+    .hhh-first-logo__underline
+    {
+        font-size: calc(.9vw + .9vh);
+
+        bottom: calc(2vw + 2.5vh);
+    }
+}
+
+
+@media (max-width: 800px) and (max-height: 1300px)
+{
+    .hhh-first-logo__underline
+    {
+        font-size: calc(.8vw + .8vh);
+
+        bottom: calc(5vw + 5vh);
+    }
+}
+
+@media (max-width: 850px) and (max-height: 700px)
+{
+    .hhh-first-logo__underline
+    {
+        font-size: calc(.8vw + .8vh);
+
+        bottom: calc(2vw + 2vh);
+    }
+}
+
+@media (max-width: 1024px) and (max-height: 500px)
+{
+    .hhh-first-logo__underline
+    {
+        font-size: calc(.8vw + .8vh);
+
+        bottom: 0;
+    }
+}
+
+@media (max-width: 500px)
+{
+    .hhh-first-section
+    {
+    }
+
+    .hhh-first-logo::after
+    {
+        content: '';
+        transition-delay: 0s;
+        transition-duration: 0s;
+        transform: scaleX(1);
+    }
+
+    .hhh-first-logo__underline
+    {
+        font-size: calc(.8vw + .8vh);
+
+        display: none;
+
+        margin: 0;
+    }
+
+    .hhh-first-logo__string
+    {
+        display: none;
+    }
+
+    .hhh-first-logo__mobile
+    {
+        display: flex;
+    }
+
+    .hhh-first-logo__translate
+    {
+        display: none;
+    }
+}

@@ -1,0 +1,156 @@
+@media (max-width: 1199px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    body
+    {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    /*---------------
+       Ничего лишнего
+    ---------------*/
+    .section-about__info
+    {
+        width: calc(50% - 40px);
+        padding-top: 0;
+    }
+
+    .section-about__box
+    {
+        padding-top: 30px;
+    }
+
+    .section-about__desc
+    {
+        color: #2b2827;
+        font-size: 14px;
+        line-height: 26px;
+
+        margin-top: -16px;
+    }
+
+    /*---------------
+       Cостав
+    ---------------*/
+    .composition__info
+    {
+        width: calc(50% - 40px);
+    }
+
+    .composition__text h2
+    {
+        font-size: 20px;
+    }
+
+    /*---------------
+       Блок информации
+    ---------------*/
+    .section-info
+    {
+        margin-top: -80px;
+    }
+
+    .section-info__info
+    {
+        padding-top: 180px;
+    }
+
+    .section-info__blockR
+    {
+        width: calc(50% - 40px);
+    }
+
+
+    /*---------------
+       Для кого
+    ---------------*/
+    .who-suits__logoAbs
+    {
+        top: 110px;
+
+        width: 360px;
+    }
+
+    .who-suits__dots1
+    {
+        margin-left: -160px;
+    }
+
+    .who-suits__img
+    {
+        width: calc(50% - 130px);
+    }
+
+
+    /*---------------
+       Товары
+    ---------------*/
+    .product-landing__icon img
+    {
+        max-height: 104px;
+    }
+
+    .product-landing__list li
+    {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .product-landing__list li:before
+    {
+        top: 2.5px;
+    }
+
+    .product-landing__list li + li
+    {
+        margin-top: 8px;
+    }
+
+    .product-landing__desc
+    {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .product-landing__desc p
+    {
+        margin-bottom: 10px;
+    }
+
+
+    /*---------------
+        Последняя секция
+    ---------------*/
+    .last-section__boxImg
+    {
+        width: calc(100% - 220px);
+        padding-left: 0;
+    }
+
+    .last-section__block
+    {
+        width: 260px;
+        margin-left: -40px;
+    }
+
+    .last-logo__desc
+    {
+        font-size: 20px;
+
+        margin-top: 12px;
+    }
+
+    .last-section__link
+    {
+        padding: 0 16px;
+    }
+}

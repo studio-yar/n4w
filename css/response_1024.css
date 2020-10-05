@@ -1,0 +1,748 @@
+@media (max-width: 1024px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    body
+    {
+        font-size: 12px;
+        line-height: 23px;
+    }
+    /*---------------
+        Header
+    ---------------*/
+
+    /*---------------
+        Main section
+    ---------------*/
+    .section_bg
+    {
+        padding-bottom: 40px;
+    }
+
+
+    /*---------------
+       Ничего лишнего
+    ---------------*/
+    .section-about
+    {
+        margin-top: 90px;
+    }
+
+    .section-about__blockL
+    {
+        width: calc(50% - 10px);
+    }
+
+    .section-about__info
+    {
+        width: calc(50% - 10px);
+    }
+
+    .about-logo
+    {
+        width: 252px;
+        padding: 32px;
+    }
+
+    .about-logo:before,
+    .about-logo:after
+    {
+        width: 32px;
+        height: 32px;
+
+        background-size: cover;
+    }
+
+    .about-logo__desc
+    {
+        font-size: 15px;
+        line-height: 20px;
+
+        margin-top: 10px;
+    }
+
+
+    .section-about__img:before
+    {
+        bottom: -22%;
+
+        height: 73%;
+    }
+
+    .section-about__img picture
+    {
+        padding-bottom: 125%;
+    }
+
+    .section-about__nothing
+    {
+        bottom: 46px;
+    }
+
+    .section-about__nothing img
+    {
+        max-width: 53%;
+    }
+
+    .section-about__desc
+    {
+        font-size: 12px;
+        line-height: 23px;
+
+        margin-top: -14px;
+        padding-left: 54px;
+    }
+
+    .section-about__box
+    {
+        max-width: 340px;
+    }
+
+    .section-about__link
+    {
+        margin-top: 20px;
+        padding-left: 54px;
+    }
+
+    .section-about__link a
+    {
+        font-size: 12px;
+        line-height: 33px;
+
+        padding: 0 22px;
+    }
+
+    .section-about__link a span
+    {
+        padding-right: 36px;
+    }
+
+    .section-about__link a svg
+    {
+        width: 19px;
+    }
+
+
+    .section-info
+    {
+        margin-top: -50px;
+    }
+
+    .section-info__blockR
+    {
+        width: calc(50% - 10px);
+    }
+
+    .section-info__info
+    {
+        padding-top: 168px;
+    }
+
+    .section-info__box
+    {
+        max-width: 288px;
+        padding-right: 10px;
+    }
+
+    .section-info__title
+    {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .section-info__list
+    {
+        margin-top: 26px;
+    }
+
+    .section-info__list li + li
+    {
+        margin-top: 14px;
+    }
+
+    .section-info__list li
+    {
+        line-height: 24px;
+
+        padding-left: 25px;
+    }
+
+    .section-info__list li:before
+    {
+        top: 7px;
+
+        width: 13px;
+        height: 10px;
+
+        background-position: 50%;
+        background-size: contain;
+    }
+
+    .section-info__link
+    {
+        font-size: 12px;
+        line-height: 33px;
+
+        margin-top: 30px;
+        padding: 0 22px;
+    }
+
+    .section-info__link span
+    {
+        padding-right: 36px;
+    }
+
+    .section-info__link svg
+    {
+        width: 19px;
+    }
+
+    /*---------------
+       Cостав
+    ---------------*/
+    .composition__info
+    {
+        padding-top: 40px;
+    }
+
+    .composition__text
+    {
+        line-height: 22px;
+    }
+
+    .composition__text h2
+    {
+        font-size: 14px;
+        line-height: 18px;
+
+        margin-bottom: 8px;
+    }
+
+    .composition__text * + h2
+    {
+        margin-top: 22px;
+    }
+
+    .composition__blockL
+    {
+        width: calc(50% + 10px);
+    }
+
+
+    .composition__images
+    {
+        max-width: 352px;
+        height: 392px;
+        margin-right: 20px;
+    }
+
+    .composition__images img
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+    .composition__img2
+    {
+        top: 108px;
+        left: 46px;
+
+        width: 80px;
+    }
+
+    .composition__img3
+    {
+        top: 58px;
+        right: 168px;
+
+        width: 20px;
+    }
+
+    .composition__img4
+    {
+        top: 44px;
+        right: 98px;
+
+        width: 55px;
+    }
+
+    .composition__img5
+    {
+        top: 51px;
+
+        width: 118px;
+    }
+
+    .composition__img6
+    {
+        top: 147px;
+        right: 63px;
+
+        width: 26px;
+    }
+
+    .composition__img7
+    {
+        right: 57px;
+        bottom: 130px;
+
+        width: 24px;
+    }
+
+    .composition__img8
+    {
+        right: 55px;
+        bottom: 61px;
+
+        width: 66px;
+    }
+
+    .composition__img9
+    {
+        right: 134px;
+        bottom: 1px;
+
+        width: 28px;
+    }
+
+    .composition__img10
+    {
+        bottom: -58px;
+        left: 122px;
+
+        width: 85px;
+    }
+
+    .composition__img11
+    {
+        bottom: 44px;
+        left: 147px;
+
+        width: 26px;
+    }
+
+    .composition__img1
+    {
+        top: 109px;
+        right: 40px;
+
+        width: 213px;
+    }
+
+    .composition__img12
+    {
+        bottom: 12px;
+        left: 109px;
+
+        width: 24px;
+    }
+
+    .composition__img13
+    {
+        bottom: 14px;
+
+        width: 210px;
+    }
+
+    @keyframes shift1
+    {
+        0%
+        {
+            transform: translate(0, 0);
+        }
+        16.66%
+        {
+            transform: translate(-10px, 0);
+        }
+        50%
+        {
+            transform: translate(0, -10px);
+        }
+        83.34%
+        {
+            transform: translate(10px, 0);
+        }
+        100%
+        {
+            transform: translate(0, 0);
+        }
+    }
+
+
+    @keyframes shift2
+    {
+        0%
+        {
+            transform: translate(0, 0);
+        }
+        16.66%
+        {
+            transform: translate(10px, 0);
+        }
+        50%
+        {
+            transform: translate(0, 10px);
+        }
+        83.34%
+        {
+            transform: translate(-10px, 0);
+        }
+        100%
+        {
+            transform: translate(0, 0);
+        }
+    }
+
+    @keyframes shift3
+    {
+        0%
+        {
+            transform: translate(0, 0);
+        }
+        16.66%
+        {
+            transform: translate(0, 10px);
+        }
+        50%
+        {
+            transform: translate(-10px, 0);
+        }
+        83.34%
+        {
+            transform: translate(10px, 0);
+        }
+        100%
+        {
+            transform: translate(0, 0);
+        }
+    }
+
+    @keyframes shift4
+    {
+        0%
+        {
+            transform: translate(0, 0);
+        }
+        16.66%
+        {
+            transform: translate(0, -10px);
+        }
+        50%
+        {
+            transform: translate(10px, 0);
+        }
+        83.34%
+        {
+            transform: translate(-10px, 0);
+        }
+        100%
+        {
+            transform: translate(0, 0);
+        }
+    }
+
+
+    /*---------------
+       Для кого
+    ---------------*/
+    .who-suits
+    {
+        margin-top: 68px;
+    }
+
+    .who-suits__img
+    {
+        width: calc(50% - 105px);
+        padding-right: 46px;
+    }
+
+    .who-suits__dots2
+    {
+        right: -10px;
+
+        width: 60px;
+    }
+
+    .who-suits__dots2 span
+    {
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+    }
+
+    .who-suits__dots2 span:nth-child(2n)
+    {
+        margin-left: 20px;
+    }
+
+    .who-suits__info
+    {
+        width: calc(50% + 58px);
+        padding-top: 107px;
+    }
+
+    .who-suits__logoAbs
+    {
+        top: 64px;
+        right: 134px;
+        left: auto;
+
+        width: 236px;
+    }
+
+    .who-suits__logo img
+    {
+        max-width: 120px;
+    }
+
+    .who-suits__desc
+    {
+        font-size: 14px;
+        line-height: 24px;
+
+        max-width: 270px;
+        margin-top: 12px;
+    }
+
+    .who-suits__dots1
+    {
+        bottom: -20px;
+        left: -20px;
+
+        width: 120px;
+        margin-left: 0;
+    }
+
+    .who-suits__dots1 span
+    {
+        width: 20px;
+        height: 20px;
+        margin: 20px 0 0 20px;
+    }
+
+
+    .section-products
+    {
+        margin-top: 36px;
+    }
+
+
+    /*---------------
+       Товары
+    ---------------*/
+    .product-landing
+    {
+        height: auto;
+        padding-top: 40px;
+
+        align-items: stretch;
+        align-content: stretch;
+    }
+
+    .product-landing__thumb
+    {
+        width: calc(50% - 10px);
+    }
+
+    .product-landing__img
+    {
+        height: auto;
+    }
+
+    .product-landing__img img
+    {
+        height: auto;
+    }
+
+    .product-landing__sector
+    {
+        width: calc(50% - 40px);
+        height: auto;
+
+        opacity: 1;
+    }
+
+    .product-landing__sector:before
+    {
+        display: none;
+    }
+
+    .product-landing__icon
+    {
+        width: 90px;
+    }
+
+    .product-landing__icon img
+    {
+        max-height: 102px;
+    }
+
+    .product-landing__list
+    {
+        width: calc(100% - 100px);
+    }
+
+    .product-landing__list li
+    {
+        font-size: 12px;
+        line-height: 15px;
+
+        padding-left: 27px;
+    }
+
+    .product-landing__list li:before
+    {
+        width: 13px;
+        height: 10px;
+
+        background-position: 50%;
+        background-size: contain;
+    }
+
+    .product-landing__list li + li
+    {
+        margin-top: 16px;
+    }
+
+    .product-landing__name
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        margin-bottom: 22px;
+    }
+
+    .product-landing__name .mob
+    {
+        display: inline;
+    }
+
+    .product-landing__desc
+    {
+        line-height: 25px;
+
+        margin-top: 30px;
+    }
+
+    .product-landing__desc p
+    {
+        margin-bottom: 22px;
+    }
+
+    .product-landing__bot
+    {
+        margin-top: 22px;
+    }
+
+    .product-landing__link
+    {
+        font-size: 12px;
+        line-height: 33px;
+
+        padding: 0 22px;
+    }
+
+    .product-landing__link span
+    {
+        padding-right: 36px;
+    }
+
+    .product-landing__link svg
+    {
+        width: 19px;
+    }
+
+    .product-landing__code
+    {
+        font-size: 12px;
+
+        margin-left: 40px;
+    }
+
+
+    /*---------------
+       Видео
+    ---------------*/
+    .video-holder
+    {
+        height: auto;
+    }
+
+    .video-section
+    {
+        position: relative;
+        top: 0;
+
+        height: auto;
+        padding-bottom: 51.3%;
+    }
+
+    .video-section__play span
+    {
+        width: 68px;
+        height: 68px;
+        margin: -34px 0 0 -34px;
+
+        background-size: 30% auto;
+    }
+
+
+    /*---------------
+        Последняя секция
+    ---------------*/
+    .last-section
+    {
+        padding-top: 85px;
+    }
+
+    .last-section_bg > .flex
+    {
+        padding-left: 0;
+    }
+
+    .last-section__boxImg
+    {
+        margin-top: -24px;
+        margin-left: -24px;
+    }
+
+    .last-section__img img
+    {
+        width: 100%;
+    }
+
+    .last-section__block
+    {
+        width: 232px;
+        margin-right: 28px;
+    }
+
+    .last-logo__desc
+    {
+        font-size: 18px;
+        line-height: normal;
+
+        margin-top: 10px;
+    }
+
+    .last-section__link
+    {
+        font-size: 12px;
+        line-height: 33px;
+
+        margin-top: 30px;
+        padding: 0 22px;
+    }
+
+    .last-section__link span
+    {
+        padding-right: 26px;
+    }
+
+    .last-section__link svg
+    {
+        width: 19px;
+    }
+}
